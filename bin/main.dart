@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
+import 'package:uuid/uuid.dart';
 
 var smallFile =
     json.decode(File('./data/pharmacies.json').readAsStringSync()) as List;
@@ -33,12 +34,15 @@ void main(List<String> args) async {
         String name = pharmEntry['name'];
         String tel = pharmEntry['tel'];
         String address = pharmEntry['address'];
+        String randomId = Uuid().v4();
+        String id = pharmEntry['id'] ?? randomId;
         var latlng = pharmacyByPhone(tel)?['pharmacyLocation'];
         var pharmacyObj = {
           'name': name,
           'tel': tel,
           'address': address,
           'pharmacyLocation': latlng,
+          'id': id,
         };
         currentPharmacies.add(pharmacyObj);
         //? end of pharmacies loop
