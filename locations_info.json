@@ -1,0 +1,2186 @@
+[
+  {
+    "gov": "Cairo",
+    "location": "15 Of May",
+    "latlng": {
+      "lat": 29.910095136363633,
+      "lng": 31.331932866666662
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "Abbasia",
+    "latlng": {
+      "lat": 30.06559094545454,
+      "lng": 31.269667854545446
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "Abdeen",
+    "latlng": {
+      "lat": 30.044472444827594,
+      "lng": 31.242054663793105
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "Al Katamia",
+    "latlng": {
+      "lat": 30.009971399999998,
+      "lng": 31.32484766206896
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "Bab El Shearia",
+    "latlng": {
+      "lat": 30.06903824117647,
+      "lng": 31.271791235294117
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "Badr City",
+    "latlng": {
+      "lat": 30.109151674999996,
+      "lng": 31.563113031249998
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Amiria",
+    "latlng": {
+      "lat": 30.104363833333334,
+      "lng": 31.29514998333333
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Azbakia",
+    "latlng": {
+      "lat": 30.060718445833345,
+      "lng": 31.25003227499999
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Basateen",
+    "latlng": {
+      "lat": 29.978058258024696,
+      "lng": 31.275131238888886
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Darb El Ahmar",
+    "latlng": {
+      "lat": 30.047730676470593,
+      "lng": 31.26155747647059
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Gamalia",
+    "latlng": {
+      "lat": 30.096957042222222,
+      "lng": 31.296660102222237
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Khalifa",
+    "latlng": {
+      "lat": 30.02199027647059,
+      "lng": 31.25059353176471
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Mokattam",
+    "latlng": {
+      "lat": 30.020980226903543,
+      "lng": 31.299891444162448
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Mosky",
+    "latlng": {
+      "lat": 30.0573268,
+      "lng": 31.26131831111111
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Nozah",
+    "latlng": {
+      "lat": 30.090671517424227,
+      "lng": 31.310580663257593
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Sahel",
+    "latlng": {
+      "lat": 30.086245988235294,
+      "lng": 31.2542396512605
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Salam City",
+    "latlng": {
+      "lat": 30.13946655019998,
+      "lng": 31.373634053199982
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Sayeda Zeinab",
+    "latlng": {
+      "lat": 30.034894401176455,
+      "lng": 31.24610391176469
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Sharabia",
+    "latlng": {
+      "lat": 30.080978914953267,
+      "lng": 31.271528208411215
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Shourok City",
+    "latlng": {
+      "lat": 30.123027259090904,
+      "lng": 31.510967450000006
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Tebeen",
+    "latlng": {
+      "lat": 29.958181665625,
+      "lng": 31.28683632187499
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Waily",
+    "latlng": {
+      "lat": 30.07586415329344,
+      "lng": 31.275512035928134
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Zaher",
+    "latlng": {
+      "lat": 30.059310689473683,
+      "lng": 31.267681998245614
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Zawya El Hamraa",
+    "latlng": {
+      "lat": 30.09940845384616,
+      "lng": 31.277926772307687
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "El Zaytoun",
+    "latlng": {
+      "lat": 30.096110724390243,
+      "lng": 31.302030902845548
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "Hadaek El Quba",
+    "latlng": {
+      "lat": 30.08410979266667,
+      "lng": 31.283046549999995
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "Heliopolis",
+    "latlng": {
+      "lat": 30.101033822670818,
+      "lng": 31.32514770776395
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "Helwan",
+    "latlng": {
+      "lat": 29.88681048781727,
+      "lng": 31.309817797969497
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "Maadi",
+    "latlng": {
+      "lat": 29.9786436944867,
+      "lng": 31.271692042395436
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "Manshat Naser",
+    "latlng": {
+      "lat": 30.055309557142856,
+      "lng": 31.322053642857146
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "Marg And Ezbet El Nakhl",
+    "latlng": {
+      "lat": 30.10486524318182,
+      "lng": 31.311539213636358
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "Matariyya And Ain Shams",
+    "latlng": {
+      "lat": 30.11740512367396,
+      "lng": 31.322951464812416
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "Misr El Qadima",
+    "latlng": {
+      "lat": 30.030568275555563,
+      "lng": 31.25289752074074
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "Nasr City",
+    "latlng": {
+      "lat": 30.05924303913041,
+      "lng": 31.347382932654856
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "New Cairo",
+    "latlng": {
+      "lat": 30.043570210185184,
+      "lng": 31.351720379629636
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "Qasr El Nil",
+    "latlng": {
+      "lat": 30.05163336923077,
+      "lng": 31.259042476923078
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "Rod El Farag",
+    "latlng": {
+      "lat": 30.071982045263148,
+      "lng": 31.247124871578944
+    }
+  },
+  {
+    "gov": "Cairo",
+    "location": "Shoubra",
+    "latlng": {
+      "lat": 30.08358912178216,
+      "lng": 31.2539842871287
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "Abo El Nomros",
+    "latlng": {
+      "lat": 30.000898276666668,
+      "lng": 31.2124138111111
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "Atfeh",
+    "latlng": {
+      "lat": 29.902308216017296,
+      "lng": 31.222120116450206
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "El Badrashen",
+    "latlng": {
+      "lat": 29.986425239033483,
+      "lng": 31.212672487732352
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "El Giza",
+    "latlng": {
+      "lat": 30.015990295161277,
+      "lng": 31.202739512500003
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "El Hawamdia",
+    "latlng": {
+      "lat": 29.97923119797297,
+      "lng": 31.224840014864885
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "Dokki",
+    "latlng": {
+      "lat": 30.03772517594937,
+      "lng": 31.21056809050634
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "Faisal",
+    "latlng": {
+      "lat": 30.00036829999999,
+      "lng": 31.1391399
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "Saff",
+    "latlng": {
+      "lat": 29.987281359905683,
+      "lng": 31.207548693396223
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "Agouza",
+    "latlng": {
+      "lat": 30.057647605063295,
+      "lng": 31.216303651265793
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "Omrania",
+    "latlng": {
+      "lat": 30.017254592718437,
+      "lng": 31.20228923980583
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "Ayat",
+    "latlng": {
+      "lat": 30.01305016713616,
+      "lng": 31.203182824413148
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "Mohandseen",
+    "latlng": {
+      "lat": 30.04688663495146,
+      "lng": 31.21621043495145
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "Haram",
+    "latlng": {
+      "lat": 30.008721087123924,
+      "lng": 31.191383112875933
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "Wahat Baharia",
+    "latlng": {
+      "lat": 29.983277382352938,
+      "lng": 31.09460814117646
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "Embaba",
+    "latlng": {
+      "lat": 30.06132045248681,
+      "lng": 31.21338191587299
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "Osiem",
+    "latlng": {
+      "lat": 30.028100908695656,
+      "lng": 31.196919535869533
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "Bolak El Dakror",
+    "latlng": {
+      "lat": 30.027689346774203,
+      "lng": 31.19847036666667
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "Kerdasa",
+    "latlng": {
+      "lat": 30.028512938150275,
+      "lng": 31.18479594913296
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "6th October",
+    "latlng": {
+      "lat": 29.97687654794188,
+      "lng": 31.0450337046005
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "Shekh Zayed",
+    "latlng": {
+      "lat": 30.02132668333333,
+      "lng": 31.161482605555552
+    }
+  },
+  {
+    "gov": "Giza",
+    "location": "Monshaat El Kanater",
+    "latlng": {
+      "lat": 30.04521616315791,
+      "lng": 31.192788636842113
+    }
+  },
+  {
+    "gov": "Alexandria",
+    "location": "Ibrahimia",
+    "latlng": {
+      "lat": 31.20631765,
+      "lng": 29.9231495
+    }
+  },
+  {
+    "gov": "Alexandria",
+    "location": "El Gomrok",
+    "latlng": {
+      "lat": 31.21172370588235,
+      "lng": 29.916670058823524
+    }
+  },
+  {
+    "gov": "Alexandria",
+    "location": "El Dekhila",
+    "latlng": {
+      "lat": 31.12661087423314,
+      "lng": 29.94925262883437
+    }
+  },
+  {
+    "gov": "Alexandria",
+    "location": "El Ramel",
+    "latlng": {
+      "lat": 31.20466929285714,
+      "lng": 29.958223460119058
+    }
+  },
+  {
+    "gov": "Alexandria",
+    "location": "El Ameria",
+    "latlng": {
+      "lat": 31.207632949206353,
+      "lng": 29.959556403968257
+    }
+  },
+  {
+    "gov": "Alexandria",
+    "location": "El Attareen",
+    "latlng": {
+      "lat": 31.18868088125,
+      "lng": 29.887613537500002
+    }
+  },
+  {
+    "gov": "Alexandria",
+    "location": "El Laban",
+    "latlng": {
+      "lat": 31.169794877777772,
+      "lng": 29.87772916666667
+    }
+  },
+  {
+    "gov": "Alexandria",
+    "location": "El Montazah",
+    "latlng": {
+      "lat": 31.233164998156663,
+      "lng": 30.006617183871
+    }
+  },
+  {
+    "gov": "Alexandria",
+    "location": "Bab Sharkey",
+    "latlng": {
+      "lat": 31.18986613170732,
+      "lng": 30.015327536585367
+    }
+  },
+  {
+    "gov": "Alexandria",
+    "location": "Borg El Arab",
+    "latlng": {
+      "lat": 31.03848558709678,
+      "lng": 29.813455351612905
+    }
+  },
+  {
+    "gov": "Alexandria",
+    "location": "Sedy Beshr",
+    "latlng": {
+      "lat": 31.2586691,
+      "lng": 29.9816854
+    }
+  },
+  {
+    "gov": "Alexandria",
+    "location": "Sedy Gaber",
+    "latlng": {
+      "lat": 31.207682380645146,
+      "lng": 29.961499813978495
+    }
+  },
+  {
+    "gov": "Alexandria",
+    "location": "Kormoz",
+    "latlng": {
+      "lat": 31.228295709090904,
+      "lng": 29.956541927272724
+    }
+  },
+  {
+    "gov": "Alexandria",
+    "location": "Moharam Biek",
+    "latlng": {
+      "lat": 31.1744957630137,
+      "lng": 29.976775816438362
+    }
+  },
+  {
+    "gov": "Alexandria",
+    "location": "Miena El Basal",
+    "latlng": {
+      "lat": 31.177984885294116,
+      "lng": 29.97615448823529
+    }
+  },
+  {
+    "gov": "Alexandria",
+    "location": "Menaa Alexandria",
+    "latlng": {
+      "lat": 31.1978755,
+      "lng": 29.9323098
+    }
+  },
+  {
+    "gov": "Alexandria",
+    "location": "El Manshia",
+    "latlng": {
+      "lat": 31.209077875,
+      "lng": 29.931813849999998
+    }
+  },
+  {
+    "gov": "Aswan",
+    "location": "Nasr El Noba",
+    "latlng": {
+      "lat": 24.25830998,
+      "lng": 32.917554839999994
+    }
+  },
+  {
+    "gov": "Aswan",
+    "location": "Naaser",
+    "latlng": {
+      "lat": 24.215064211111113,
+      "lng": 32.92585024444444
+    }
+  },
+  {
+    "gov": "Aswan",
+    "location": "Kom Embo",
+    "latlng": {
+      "lat": 24.57255188170733,
+      "lng": 32.896979213414674
+    }
+  },
+  {
+    "gov": "Aswan",
+    "location": "Edfo",
+    "latlng": {
+      "lat": 24.751425611737098,
+      "lng": 32.83482402300473
+    }
+  },
+  {
+    "gov": "Aswan",
+    "location": "Asswan",
+    "latlng": {
+      "lat": 24.259943222324214,
+      "lng": 32.87483803547406
+    }
+  },
+  {
+    "gov": "Aswan",
+    "location": "Daraw",
+    "latlng": {
+      "lat": 24.311658609677433,
+      "lng": 32.91961186774195
+    }
+  },
+  {
+    "gov": "Asyut",
+    "location": "Abnoub",
+    "latlng": {
+      "lat": 27.24232558529411,
+      "lng": 31.164895954411744
+    }
+  },
+  {
+    "gov": "Asyut",
+    "location": "Abo Teag",
+    "latlng": {
+      "lat": 27.368147912751674,
+      "lng": 31.22005223825504
+    }
+  },
+  {
+    "gov": "Asyut",
+    "location": "Assuiet",
+    "latlng": {
+      "lat": 27.237163553923214,
+      "lng": 31.185151492153587
+    }
+  },
+  {
+    "gov": "Asyut",
+    "location": "El Badary",
+    "latlng": {
+      "lat": 27.214077382733812,
+      "lng": 31.233865757553946
+    }
+  },
+  {
+    "gov": "Asyut",
+    "location": "El Ghanaim",
+    "latlng": {
+      "lat": 27.35085823333333,
+      "lng": 31.22032614509803
+    }
+  },
+  {
+    "gov": "Asyut",
+    "location": "El Fatth",
+    "latlng": {
+      "lat": 27.25664281130951,
+      "lng": 31.18764570476193
+    }
+  },
+  {
+    "gov": "Asyut",
+    "location": "El Quosia",
+    "latlng": {
+      "lat": 27.277397504365087,
+      "lng": 31.17687730158735
+    }
+  },
+  {
+    "gov": "Asyut",
+    "location": "First Assuit",
+    "latlng": {
+      "lat": 27.177069895652163,
+      "lng": 31.189855410869566
+    }
+  },
+  {
+    "gov": "Asyut",
+    "location": "Second Assuit",
+    "latlng": {
+      "lat": 27.142819250000002,
+      "lng": 31.228294124999998
+    }
+  },
+  {
+    "gov": "Asyut",
+    "location": "Dayrot",
+    "latlng": {
+      "lat": 27.28863554113476,
+      "lng": 31.183533164539025
+    }
+  },
+  {
+    "gov": "Asyut",
+    "location": "Sahel Selim",
+    "latlng": {
+      "lat": 27.17139059489794,
+      "lng": 31.26869618571427
+    }
+  },
+  {
+    "gov": "Asyut",
+    "location": "Sudfa",
+    "latlng": {
+      "lat": 27.352515717777795,
+      "lng": 31.212373874444452
+    }
+  },
+  {
+    "gov": "Asyut",
+    "location": "Manfalout",
+    "latlng": {
+      "lat": 27.344304983391016,
+      "lng": 31.11014998027685
+    }
+  },
+  {
+    "gov": "Ismailia",
+    "location": "Ismailliaa",
+    "latlng": {
+      "lat": 30.57874930245539,
+      "lng": 32.22817989821428
+    }
+  },
+  {
+    "gov": "Ismailia",
+    "location": "El Tal El Kbier",
+    "latlng": {
+      "lat": 30.561474769811323,
+      "lng": 32.15691623490566
+    }
+  },
+  {
+    "gov": "Ismailia",
+    "location": "El Shiekh Zaied",
+    "latlng": {
+      "lat": 30.605445971874992,
+      "lng": 32.27943530625
+    }
+  },
+  {
+    "gov": "Ismailia",
+    "location": "El Kantara Gharb",
+    "latlng": {
+      "lat": 30.58665912380952,
+      "lng": 31.930786490476187
+    }
+  },
+  {
+    "gov": "Ismailia",
+    "location": "El Kantara Shark",
+    "latlng": {
+      "lat": 30.490178761538463,
+      "lng": 32.16625208846154
+    }
+  },
+  {
+    "gov": "Ismailia",
+    "location": "First Isamillia",
+    "latlng": {
+      "lat": 30.569450984722227,
+      "lng": 32.15194482222223
+    }
+  },
+  {
+    "gov": "Ismailia",
+    "location": "Second Ismaillia",
+    "latlng": {
+      "lat": 30.617192666666664,
+      "lng": 32.294416766666664
+    }
+  },
+  {
+    "gov": "Ismailia",
+    "location": "Third Ismaillia",
+    "latlng": {
+      "lat": 30.6058224,
+      "lng": 32.283512650000006
+    }
+  },
+  {
+    "gov": "Ismailia",
+    "location": "Fayed",
+    "latlng": {
+      "lat": 30.449981592682928,
+      "lng": 32.263795887804875
+    }
+  },
+  {
+    "gov": "Luxor",
+    "location": "Armant",
+    "latlng": {
+      "lat": 25.86321511162791,
+      "lng": 32.529310281395354
+    }
+  },
+  {
+    "gov": "Luxor",
+    "location": "Essna",
+    "latlng": {
+      "lat": 25.71513638455881,
+      "lng": 32.6103833992647
+    }
+  },
+  {
+    "gov": "Luxor",
+    "location": "Louxor",
+    "latlng": {
+      "lat": 25.711347553648025,
+      "lng": 32.62883047553646
+    }
+  },
+  {
+    "gov": "Red Sea",
+    "location": "Hurgada",
+    "latlng": {
+      "lat": 27.303618302201823,
+      "lng": 33.719181037981606
+    }
+  },
+  {
+    "gov": "Red Sea",
+    "location": "Qusier",
+    "latlng": {
+      "lat": 27.696911061764705,
+      "lng": 33.09611590588236
+    }
+  },
+  {
+    "gov": "Red Sea",
+    "location": "Ras Gharib",
+    "latlng": {
+      "lat": 28.26049146875,
+      "lng": 33.107671950000004
+    }
+  },
+  {
+    "gov": "Red Sea",
+    "location": "Safaga",
+    "latlng": {
+      "lat": 27.020155965217388,
+      "lng": 33.8371131847826
+    }
+  },
+  {
+    "gov": "Red Sea",
+    "location": "Marsa Alam",
+    "latlng": {
+      "lat": 26.118043259374996,
+      "lng": 33.83454487499999
+    }
+  },
+  {
+    "gov": "Beheira",
+    "location": "Abo El Matamer",
+    "latlng": {
+      "lat": 30.906795836416183,
+      "lng": 30.33433747745667
+    }
+  },
+  {
+    "gov": "Beheira",
+    "location": "Abo Hems",
+    "latlng": {
+      "lat": 30.494269707777786,
+      "lng": 30.66549932333334
+    }
+  },
+  {
+    "gov": "Beheira",
+    "location": "Edko",
+    "latlng": {
+      "lat": 31.170487551219512,
+      "lng": 30.321331102439018
+    }
+  },
+  {
+    "gov": "Beheira",
+    "location": "El Delengat",
+    "latlng": {
+      "lat": 30.878127868794344,
+      "lng": 30.533866080141827
+    }
+  },
+  {
+    "gov": "Beheira",
+    "location": "El Rahmania",
+    "latlng": {
+      "lat": 31.005813009090904,
+      "lng": 30.592231415909108
+    }
+  },
+  {
+    "gov": "Beheira",
+    "location": "El Mahmodia",
+    "latlng": {
+      "lat": 31.05976767176471,
+      "lng": 30.40036034588234
+    }
+  },
+  {
+    "gov": "Beheira",
+    "location": "Eyetay El Barood",
+    "latlng": {
+      "lat": 30.754973070370365,
+      "lng": 30.701743555555552
+    }
+  },
+  {
+    "gov": "Beheira",
+    "location": "Hosh Essa",
+    "latlng": {
+      "lat": 30.945679201075276,
+      "lng": 30.372266196774206
+    }
+  },
+  {
+    "gov": "Beheira",
+    "location": "Damnhour",
+    "latlng": {
+      "lat": 31.030778905763686,
+      "lng": 30.45737367175793
+    }
+  },
+  {
+    "gov": "Beheira",
+    "location": "Rashed",
+    "latlng": {
+      "lat": 31.01684522738095,
+      "lng": 30.47762626071428
+    }
+  },
+  {
+    "gov": "Beheira",
+    "location": "Shoubra Kheet",
+    "latlng": {
+      "lat": 30.762540098795174,
+      "lng": 30.627426489156644
+    }
+  },
+  {
+    "gov": "Beheira",
+    "location": "Kafr El Dawar",
+    "latlng": {
+      "lat": 31.08720518994086,
+      "lng": 30.194343409171633
+    }
+  },
+  {
+    "gov": "Beheira",
+    "location": "Kom Hamada",
+    "latlng": {
+      "lat": 30.75616513869561,
+      "lng": 30.682157408695645
+    }
+  },
+  {
+    "gov": "Beheira",
+    "location": "Markaz Bader",
+    "latlng": {
+      "lat": 30.684138036764715,
+      "lng": 30.69926077352941
+    }
+  },
+  {
+    "gov": "Beheira",
+    "location": "Wadi El Natron",
+    "latlng": {
+      "lat": 30.703901325,
+      "lng": 30.465051835714295
+    }
+  },
+  {
+    "gov": "Dakahlia",
+    "location": "Aga",
+    "latlng": {
+      "lat": 30.878200872598867,
+      "lng": 31.336356548305105
+    }
+  },
+  {
+    "gov": "Dakahlia",
+    "location": "El Senbalween",
+    "latlng": {
+      "lat": 30.82859014666667,
+      "lng": 31.428673468333322
+    }
+  },
+  {
+    "gov": "Dakahlia",
+    "location": "El Mtaria",
+    "latlng": {
+      "lat": 30.919412973972605,
+      "lng": 31.53827296438356
+    }
+  },
+  {
+    "gov": "Dakahlia",
+    "location": "El Manzala",
+    "latlng": {
+      "lat": 30.908798037096794,
+      "lng": 31.6431380075269
+    }
+  },
+  {
+    "gov": "Dakahlia",
+    "location": "El Mansoura",
+    "latlng": {
+      "lat": 31.01259169800004,
+      "lng": 31.389412338571425
+    }
+  },
+  {
+    "gov": "Dakahlia",
+    "location": "First Mansoura",
+    "latlng": {
+      "lat": 30.993961032142852,
+      "lng": 31.39166749285715
+    }
+  },
+  {
+    "gov": "Dakahlia",
+    "location": "Bani Abied",
+    "latlng": {
+      "lat": 30.974666544827592,
+      "lng": 31.39570408448275
+    }
+  },
+  {
+    "gov": "Dakahlia",
+    "location": "Tama El Amdeed",
+    "latlng": {
+      "lat": 30.808458065624997,
+      "lng": 31.511319026562504
+    }
+  },
+  {
+    "gov": "Dakahlia",
+    "location": "Second Mansoura",
+    "latlng": {
+      "lat": 30.889902490000004,
+      "lng": 31.31292507
+    }
+  },
+  {
+    "gov": "Dakahlia",
+    "location": "Dekrns",
+    "latlng": {
+      "lat": 31.03157606160334,
+      "lng": 31.53091133797462
+    }
+  },
+  {
+    "gov": "Dakahlia",
+    "location": "Sherbeen",
+    "latlng": {
+      "lat": 31.126032331067943,
+      "lng": 31.486749202589042
+    }
+  },
+  {
+    "gov": "Dakahlia",
+    "location": "Talkha",
+    "latlng": {
+      "lat": 31.0197986978979,
+      "lng": 31.373711526726712
+    }
+  },
+  {
+    "gov": "Dakahlia",
+    "location": "Mahala Demna",
+    "latlng": {
+      "lat": 30.702697119999993,
+      "lng": 31.424134069999997
+    }
+  },
+  {
+    "gov": "Dakahlia",
+    "location": "Menia El Naser",
+    "latlng": {
+      "lat": 30.899677741860458,
+      "lng": 31.45066522558139
+    }
+  },
+  {
+    "gov": "Dakahlia",
+    "location": "Meet Saleel",
+    "latlng": {
+      "lat": 31.065440549999998,
+      "lng": 31.465976549999993
+    }
+  },
+  {
+    "gov": "Dakahlia",
+    "location": "Meet Ghamer",
+    "latlng": {
+      "lat": 30.759602263888958,
+      "lng": 31.306484422037055
+    }
+  },
+  {
+    "gov": "Dakahlia",
+    "location": "Nebroa",
+    "latlng": {
+      "lat": 31.025265407207208,
+      "lng": 31.39591081801801
+    }
+  },
+  {
+    "gov": "Dakahlia ",
+    "location": "Blkas",
+    "latlng": {
+      "lat": 31.003482014761907,
+      "lng": 31.42731089047618
+    }
+  },
+  {
+    "gov": "Suez",
+    "location": "El Arbein",
+    "latlng": {
+      "lat": 29.99689807583332,
+      "lng": 32.3949952075
+    }
+  },
+  {
+    "gov": "Suez",
+    "location": "Sueiz",
+    "latlng": {
+      "lat": 29.990576281992325,
+      "lng": 32.40025644597702
+    }
+  },
+  {
+    "gov": "Suez",
+    "location": "Attaka",
+    "latlng": {
+      "lat": 29.988875622222217,
+      "lng": 32.38337527777778
+    }
+  },
+  {
+    "gov": "Sharqia",
+    "location": "Abo Hamad",
+    "latlng": {
+      "lat": 30.491581136912778,
+      "lng": 31.59881126744965
+    }
+  },
+  {
+    "gov": "Sharqia",
+    "location": "Abo Kebier",
+    "latlng": {
+      "lat": 30.599422129118807,
+      "lng": 31.469749948275876
+    }
+  },
+  {
+    "gov": "Sharqia",
+    "location": "El Ibrahimia",
+    "latlng": {
+      "lat": 31.128541965909093,
+      "lng": 30.06311625454545
+    }
+  },
+  {
+    "gov": "Sharqia",
+    "location": "El Hessainia",
+    "latlng": {
+      "lat": 30.583017921296307,
+      "lng": 31.611133585493832
+    }
+  },
+  {
+    "gov": "Sharqia",
+    "location": "El Zakazek",
+    "latlng": {
+      "lat": 30.48890052499998,
+      "lng": 31.469750470911208
+    }
+  },
+  {
+    "gov": "Sharqia",
+    "location": "10th Ramadan",
+    "latlng": {
+      "lat": 30.301985454054044,
+      "lng": 31.635676766666666
+    }
+  },
+  {
+    "gov": "Sharqia",
+    "location": "El Kareen",
+    "latlng": {
+      "lat": 30.549863229166665,
+      "lng": 31.645974287499996
+    }
+  },
+  {
+    "gov": "Sharqia",
+    "location": "El Knayat",
+    "latlng": {
+      "lat": 30.47110308695652,
+      "lng": 31.523929865217394
+    }
+  },
+  {
+    "gov": "Sharqia",
+    "location": "First Zakazek",
+    "latlng": {
+      "lat": 30.501215886666664,
+      "lng": 31.587802113333336
+    }
+  },
+  {
+    "gov": "Sharqia",
+    "location": "Saker Sons",
+    "latlng": {
+      "lat": 30.481898402941184,
+      "lng": 31.436229076470596
+    }
+  },
+  {
+    "gov": "Sharqia",
+    "location": "Belbies",
+    "latlng": {
+      "lat": 30.37093302182316,
+      "lng": 31.484815437292887
+    }
+  },
+  {
+    "gov": "Sharqia",
+    "location": "Second Zakazek",
+    "latlng": {
+      "lat": 30.700662100000002,
+      "lng": 31.264129699999998
+    }
+  },
+  {
+    "gov": "Sharqia",
+    "location": "Derp Negm",
+    "latlng": {
+      "lat": 30.61128089619772,
+      "lng": 31.52222572623573
+    }
+  },
+  {
+    "gov": "Sharqia",
+    "location": "Fakous",
+    "latlng": {
+      "lat": 30.634345904496374,
+      "lng": 31.703899965647494
+    }
+  },
+  {
+    "gov": "Sharqia",
+    "location": "Kafr Saker",
+    "latlng": {
+      "lat": 30.584175787113423,
+      "lng": 31.48334435773197
+    }
+  },
+  {
+    "gov": "Sharqia",
+    "location": "Mashtoul El Souk",
+    "latlng": {
+      "lat": 30.317082567999986,
+      "lng": 31.364725338399985
+    }
+  },
+  {
+    "gov": "Sharqia",
+    "location": "Menaa El Kamh",
+    "latlng": {
+      "lat": 30.316496925000003,
+      "lng": 31.372730677272727
+    }
+  },
+  {
+    "gov": "Sharqia",
+    "location": "Heha",
+    "latlng": {
+      "lat": 30.522887472619054,
+      "lng": 31.52000326130953
+    }
+  },
+  {
+    "gov": "Gharbia",
+    "location": "El Santa",
+    "latlng": {
+      "lat": 30.691504577777785,
+      "lng": 31.119632300308627
+    }
+  },
+  {
+    "gov": "Gharbia",
+    "location": "El Mahala El Koubra",
+    "latlng": {
+      "lat": 30.86497592382773,
+      "lng": 31.22481858605832
+    }
+  },
+  {
+    "gov": "Gharbia",
+    "location": "First El Mahala El Koubra",
+    "latlng": {
+      "lat": 30.861532412500004,
+      "lng": 31.201557706250004
+    }
+  },
+  {
+    "gov": "Gharbia",
+    "location": "First Tanta",
+    "latlng": {
+      "lat": 30.761224634782607,
+      "lng": 31.02239928695651
+    }
+  },
+  {
+    "gov": "Gharbia",
+    "location": "Basyon",
+    "latlng": {
+      "lat": 30.841116432620314,
+      "lng": 31.001654383422427
+    }
+  },
+  {
+    "gov": "Gharbia",
+    "location": "Second El Mahala El Koubra",
+    "latlng": {
+      "lat": 30.9781564,
+      "lng": 31.1624588
+    }
+  },
+  {
+    "gov": "Gharbia",
+    "location": "Second Tanta",
+    "latlng": {
+      "lat": 30.794871716666666,
+      "lng": 31.00072971666667
+    }
+  },
+  {
+    "gov": "Gharbia",
+    "location": "Zefta",
+    "latlng": {
+      "lat": 30.668813716829323,
+      "lng": 31.237510393414645
+    }
+  },
+  {
+    "gov": "Gharbia",
+    "location": "Samanoud",
+    "latlng": {
+      "lat": 30.893108612301546,
+      "lng": 31.24485482420639
+    }
+  },
+  {
+    "gov": "Gharbia",
+    "location": "Tanta",
+    "latlng": {
+      "lat": 30.75864694435642,
+      "lng": 31.021774215148422
+    }
+  },
+  {
+    "gov": "Gharbia",
+    "location": "Koutor",
+    "latlng": {
+      "lat": 30.548948496,
+      "lng": 31.19298937600001
+    }
+  },
+  {
+    "gov": "Gharbia",
+    "location": "Kafr El Zayat",
+    "latlng": {
+      "lat": 30.79757022941177,
+      "lng": 30.8274105382353
+    }
+  },
+  {
+    "gov": "Faiyum",
+    "location": "Abshway",
+    "latlng": {
+      "lat": 30.009404280000002,
+      "lng": 31.21909745
+    }
+  },
+  {
+    "gov": "Faiyum",
+    "location": "Etsa",
+    "latlng": {
+      "lat": 30.042743471428572,
+      "lng": 31.214356471428573
+    }
+  },
+  {
+    "gov": "Faiyum",
+    "location": "El Fayoum",
+    "latlng": {
+      "lat": 29.857009743749998,
+      "lng": 31.168903181250005
+    }
+  },
+  {
+    "gov": "Faiyum",
+    "location": "Snoras",
+    "latlng": {
+      "lat": 29.47128616,
+      "lng": 31.202837499999998
+    }
+  },
+  {
+    "gov": "Faiyum",
+    "location": "Tamya",
+    "latlng": {
+      "lat": 30.429731866666668,
+      "lng": 31.259940433333337
+    }
+  },
+  {
+    "gov": "Faiyum",
+    "location": "Yousof El Sedek",
+    "latlng": {
+      "lat": 30.020767699999997,
+      "lng": 31.170413999999997
+    }
+  },
+  {
+    "gov": "Qalyubia",
+    "location": "Abou Zaabal",
+    "latlng": {
+      "lat": 30.1192163,
+      "lng": 31.3295403
+    }
+  },
+  {
+    "gov": "Qalyubia",
+    "location": "El Khanka",
+    "latlng": {
+      "lat": 30.144907744186046,
+      "lng": 31.23169305930232
+    }
+  },
+  {
+    "gov": "Qalyubia",
+    "location": "El Khasos",
+    "latlng": {
+      "lat": 29.88445555517241,
+      "lng": 31.374085662068957
+    }
+  },
+  {
+    "gov": "Qalyubia",
+    "location": "El Qanater El Khayreya",
+    "latlng": {
+      "lat": 30.032121106896554,
+      "lng": 31.197055637931033
+    }
+  },
+  {
+    "gov": "Qalyubia",
+    "location": "Benha",
+    "latlng": {
+      "lat": 30.171428446153843,
+      "lng": 31.380568423076927
+    }
+  },
+  {
+    "gov": "Qalyubia",
+    "location": "Kafr Shukr",
+    "latlng": {
+      "lat": 30.46995851428571,
+      "lng": 31.306510214285712
+    }
+  },
+  {
+    "gov": "Qalyubia",
+    "location": "Obour City",
+    "latlng": {
+      "lat": 29.997353873333335,
+      "lng": 31.32308856
+    }
+  },
+  {
+    "gov": "Qalyubia",
+    "location": "Qalyub",
+    "latlng": {
+      "lat": 30.14347227666667,
+      "lng": 31.239583986666663
+    }
+  },
+  {
+    "gov": "Qalyubia",
+    "location": "Toukh",
+    "latlng": {
+      "lat": 30.184914213333336,
+      "lng": 31.23510488333334
+    }
+  },
+  {
+    "gov": "Qalyubia",
+    "location": "Shibin El Qanater",
+    "latlng": {
+      "lat": 30.16782264444444,
+      "lng": 31.339945283333332
+    }
+  },
+  {
+    "gov": "Qalyubia",
+    "location": "Shubra El Kheima",
+    "latlng": {
+      "lat": 30.02043816666667,
+      "lng": 31.331036035772364
+    }
+  },
+  {
+    "gov": "Monufia",
+    "location": "Ashmoun",
+    "latlng": {
+      "lat": 30.037733708823527,
+      "lng": 31.219482441176464
+    }
+  },
+  {
+    "gov": "Monufia",
+    "location": "El Bagour",
+    "latlng": {
+      "lat": 30.125832788888886,
+      "lng": 31.148811955555555
+    }
+  },
+  {
+    "gov": "Monufia",
+    "location": "Birket El Sab",
+    "latlng": {
+      "lat": 30.561374280000003,
+      "lng": 31.198516720000004
+    }
+  },
+  {
+    "gov": "Monufia",
+    "location": "Mnouf",
+    "latlng": {
+      "lat": 30.126401977777775,
+      "lng": 31.111542216666667
+    }
+  },
+  {
+    "gov": "Monufia",
+    "location": "Quesna",
+    "latlng": {
+      "lat": 29.98318406666667,
+      "lng": 31.239105055555555
+    }
+  },
+  {
+    "gov": "Monufia",
+    "location": "Sadat City",
+    "latlng": {
+      "lat": 30.559579849999995,
+      "lng": 30.891179794444447
+    }
+  },
+  {
+    "gov": "Monufia",
+    "location": "Shibin El Kom",
+    "latlng": {
+      "lat": 30.213404809090903,
+      "lng": 31.31583569090909
+    }
+  },
+  {
+    "gov": "Monufia",
+    "location": "Shuhada",
+    "latlng": {
+      "lat": 30.12880220588235,
+      "lng": 31.154035905882353
+    }
+  },
+  {
+    "gov": "Monufia",
+    "location": "Tala",
+    "latlng": {
+      "lat": 30.558755115999997,
+      "lng": 31.031907516000004
+    }
+  },
+  {
+    "gov": "Minya",
+    "location": "Abou Qirqas",
+    "latlng": {
+      "lat": 29.324164875,
+      "lng": 31.211802400000003
+    }
+  },
+  {
+    "gov": "Minya",
+    "location": "El Idwa",
+    "latlng": {
+      "lat": 29.74808415,
+      "lng": 31.249721089999998
+    }
+  },
+  {
+    "gov": "Minya",
+    "location": "Minya District",
+    "latlng": {
+      "lat": 28.801802387499993,
+      "lng": 31.716178875000008
+    }
+  },
+  {
+    "gov": "Minya",
+    "location": "Beni Mazar",
+    "latlng": {
+      "lat": 29.468289257142853,
+      "lng": 31.343923042857135
+    }
+  },
+  {
+    "gov": "Minya",
+    "location": "Deir Mawas",
+    "latlng": {
+      "lat": 29.00997006153846,
+      "lng": 31.484212976923082
+    }
+  },
+  {
+    "gov": "Minya",
+    "location": "Maghagha",
+    "latlng": {
+      "lat": 30.035983282352937,
+      "lng": 31.189479023529415
+    }
+  },
+  {
+    "gov": "Minya",
+    "location": "Mallawi",
+    "latlng": {
+      "lat": 29.344250591304352,
+      "lng": 31.382822152173905
+    }
+  },
+  {
+    "gov": "Minya",
+    "location": "Matai",
+    "latlng": {
+      "lat": 30.298035933333335,
+      "lng": 31.077477433333332
+    }
+  },
+  {
+    "gov": "Minya",
+    "location": "Samalut",
+    "latlng": {
+      "lat": 30.05061653333333,
+      "lng": 31.228460277777774
+    }
+  },
+  {
+    "gov": "Beni Suef",
+    "location": "El Fashn",
+    "latlng": {
+      "lat": 30.069407033333327,
+      "lng": 31.27489847777778
+    }
+  },
+  {
+    "gov": "Beni Suef",
+    "location": "Ehnasia",
+    "latlng": {
+      "lat": 30.04676885,
+      "lng": 31.186769599999998
+    }
+  },
+  {
+    "gov": "Beni Suef",
+    "location": "Al Wasta",
+    "latlng": {
+      "lat": 30.02152267727273,
+      "lng": 31.21262417272728
+    }
+  },
+  {
+    "gov": "Beni Suef",
+    "location": "Biba",
+    "latlng": {
+      "lat": 30.031690700000002,
+      "lng": 31.30877567
+    }
+  },
+  {
+    "gov": "Beni Suef",
+    "location": "Bani Suef",
+    "latlng": {
+      "lat": 29.92009032666666,
+      "lng": 31.463130139999993
+    }
+  },
+  {
+    "gov": "Beni Suef",
+    "location": "Nasser",
+    "latlng": {
+      "lat": 30.035694899999996,
+      "lng": 31.23074883333333
+    }
+  },
+  {
+    "gov": "Beni Suef",
+    "location": "Samasta",
+    "latlng": {
+      "lat": 30.183103825,
+      "lng": 31.2686536
+    }
+  },
+  {
+    "gov": "Beni Suef",
+    "location": "El Arab",
+    "latlng": {
+      "lat": 30.4754521,
+      "lng": 31.1690747
+    }
+  },
+  {
+    "gov": "Port Said",
+    "location": "El Dawahy",
+    "latlng": {
+      "lat": 31.0533882,
+      "lng": 31.3790659
+    }
+  },
+  {
+    "gov": "Port Said",
+    "location": "El Zohour",
+    "latlng": {
+      "lat": 29.9656763,
+      "lng": 32.5498453
+    }
+  },
+  {
+    "gov": "Port Said",
+    "location": "Port Fuad",
+    "latlng": {
+      "lat": 30.329315,
+      "lng": 32.07248865
+    }
+  },
+  {
+    "gov": "Port Said",
+    "location": "Sharq",
+    "latlng": {
+      "lat": 30.5160305,
+      "lng": 31.2763245
+    }
+  },
+  {
+    "gov": "Port Said",
+    "location": "South Port Said",
+    "latlng": {
+      "lat": 30.605462,
+      "lng": 32.2948461
+    }
+  },
+  {
+    "gov": "South Sinai",
+    "location": "El Tor",
+    "latlng": {
+      "lat": 30.3051043,
+      "lng": 31.7759954
+    }
+  },
+  {
+    "gov": "South Sinai",
+    "location": "Nuweiba",
+    "latlng": {
+      "lat": 27.2578957,
+      "lng": 33.8116067
+    }
+  },
+  {
+    "gov": "South Sinai",
+    "location": "Sharm El Sheikh",
+    "latlng": {
+      "lat": 30.305207645714283,
+      "lng": 31.56748863714285
+    }
+  },
+  {
+    "gov": "Damietta",
+    "location": "El Zarqa",
+    "latlng": {
+      "lat": 30.420940475,
+      "lng": 31.173115850000002
+    }
+  },
+  {
+    "gov": "Damietta",
+    "location": "Damietta District",
+    "latlng": {
+      "lat": 30.765408026923073,
+      "lng": 31.26135519999999
+    }
+  },
+  {
+    "gov": "Damietta",
+    "location": "Faraskour",
+    "latlng": {
+      "lat": 30.32066475,
+      "lng": 31.328450499999995
+    }
+  },
+  {
+    "gov": "Damietta",
+    "location": "Kafr Saad",
+    "latlng": {
+      "lat": 31.085493848275863,
+      "lng": 31.426497213793102
+    }
+  },
+  {
+    "gov": "Sohag",
+    "location": "Akhmim",
+    "latlng": {
+      "lat": 29.0677751,
+      "lng": 30.642067400000002
+    }
+  },
+  {
+    "gov": "Sohag",
+    "location": "Dar El Salam",
+    "latlng": {
+      "lat": 28.7693357375,
+      "lng": 31.5175077125
+    }
+  },
+  {
+    "gov": "Sohag",
+    "location": "El Balyana",
+    "latlng": {
+      "lat": 28.724380157142857,
+      "lng": 32.13559849285714
+    }
+  },
+  {
+    "gov": "Sohag",
+    "location": "El Maragha",
+    "latlng": {
+      "lat": 28.44334277777778,
+      "lng": 31.75859306666667
+    }
+  },
+  {
+    "gov": "Sohag",
+    "location": "El Minshah",
+    "latlng": {
+      "lat": 27.760990879999998,
+      "lng": 32.2615852
+    }
+  },
+  {
+    "gov": "Sohag",
+    "location": "Girga",
+    "latlng": {
+      "lat": 28.168802375000002,
+      "lng": 32.58263588333333
+    }
+  },
+  {
+    "gov": "Sohag",
+    "location": "Geheinah",
+    "latlng": {
+      "lat": 29.798315483333337,
+      "lng": 31.057619799999998
+    }
+  },
+  {
+    "gov": "Sohag",
+    "location": "Tahta",
+    "latlng": {
+      "lat": 29.476566014285712,
+      "lng": 31.48897389285714
+    }
+  },
+  {
+    "gov": "Sohag",
+    "location": "Tima",
+    "latlng": {
+      "lat": 27.82396882666667,
+      "lng": 31.398575816666668
+    }
+  },
+  {
+    "gov": "Sohag",
+    "location": "Saqultah",
+    "latlng": {
+      "lat": 29.598175825,
+      "lng": 31.663832174999996
+    }
+  },
+  {
+    "gov": "Sohag",
+    "location": "Souhag District",
+    "latlng": {
+      "lat": 28.404127620000004,
+      "lng": 31.936217205
+    }
+  },
+  {
+    "gov": "North Sinai",
+    "location": "Bir Al Abd",
+    "latlng": {
+      "lat": 30.51723771111111,
+      "lng": 31.996767300000002
+    }
+  },
+  {
+    "gov": "North Sinai",
+    "location": "Arish",
+    "latlng": {
+      "lat": 30.454508114285712,
+      "lng": 31.37239231428572
+    }
+  },
+  {
+    "gov": "North Sinai",
+    "location": "Hasna",
+    "latlng": {
+      "lat": 30.5892318,
+      "lng": 31.5150069
+    }
+  },
+  {
+    "gov": "North Sinai",
+    "location": "Sheikh Zuweid",
+    "latlng": {
+      "lat": 30.7010024125,
+      "lng": 31.306217150000002
+    }
+  },
+  {
+    "gov": "North Sinai",
+    "location": "Rafah",
+    "latlng": {
+      "lat": 31.0775006,
+      "lng": 31.4061625
+    }
+  },
+  {
+    "gov": "Qena",
+    "location": "Abu Tesht",
+    "latlng": {
+      "lat": 27.655553791666666,
+      "lng": 32.68395795833334
+    }
+  },
+  {
+    "gov": "Qena",
+    "location": "Dishna",
+    "latlng": {
+      "lat": 27.953339084615383,
+      "lng": 32.02826351538461
+    }
+  },
+  {
+    "gov": "Qena",
+    "location": "El Waqf",
+    "latlng": {
+      "lat": 30.1364818,
+      "lng": 31.3286612
+    }
+  },
+  {
+    "gov": "Qena",
+    "location": "Farshut",
+    "latlng": {
+      "lat": 27.24820734285714,
+      "lng": 32.11429947142857
+    }
+  },
+  {
+    "gov": "Qena",
+    "location": "Qena District",
+    "latlng": {
+      "lat": 27.751773735999997,
+      "lng": 32.598423686000004
+    }
+  },
+  {
+    "gov": "Qena",
+    "location": "Qift",
+    "latlng": {
+      "lat": 29.861559487500003,
+      "lng": 31.5142695875
+    }
+  },
+  {
+    "gov": "Qena",
+    "location": "Qus",
+    "latlng": {
+      "lat": 26.965286708695654,
+      "lng": 32.46092851739131
+    }
+  },
+  {
+    "gov": "Qena",
+    "location": "Nag Hammadi",
+    "latlng": {
+      "lat": 27.709638499999997,
+      "lng": 33.38937909583333
+    }
+  },
+  {
+    "gov": "Qena",
+    "location": "Naqada",
+    "latlng": {
+      "lat": 26.568909321428574,
+      "lng": 32.46790028571429
+    }
+  },
+  {
+    "gov": "Kafr El Sheikh",
+    "location": "Baltim",
+    "latlng": {
+      "lat": 30.256569149999997,
+      "lng": 31.324807275
+    }
+  },
+  {
+    "gov": "Kafr El Sheikh",
+    "location": "Biyala",
+    "latlng": {
+      "lat": 31.05849617,
+      "lng": 31.330550409999994
+    }
+  },
+  {
+    "gov": "Kafr El Sheikh",
+    "location": "Desouk",
+    "latlng": {
+      "lat": 31.226493,
+      "lng": 29.996633
+    }
+  },
+  {
+    "gov": "Kafr El Sheikh",
+    "location": "El Hamool",
+    "latlng": {
+      "lat": 30.38452938571429,
+      "lng": 31.378047478571425
+    }
+  },
+  {
+    "gov": "Kafr El Sheikh",
+    "location": "El Reyad",
+    "latlng": {
+      "lat": 30.65367628333333,
+      "lng": 30.61006125
+    }
+  },
+  {
+    "gov": "Kafr El Sheikh",
+    "location": "Fuwwah",
+    "latlng": {
+      "lat": 31.1387474,
+      "lng": 30.257156900000002
+    }
+  },
+  {
+    "gov": "Kafr El Sheikh",
+    "location": "Kafr El Sheikh City",
+    "latlng": {
+      "lat": 30.123192024999998,
+      "lng": 31.22472445
+    }
+  },
+  {
+    "gov": "Kafr El Sheikh",
+    "location": "Qallin",
+    "latlng": {
+      "lat": 30.653439149999997,
+      "lng": 30.881331383333332
+    }
+  },
+  {
+    "gov": "Kafr El Sheikh",
+    "location": "Mutubas",
+    "latlng": {
+      "lat": 30.753528735714287,
+      "lng": 30.54466715
+    }
+  },
+  {
+    "gov": "Kafr El Sheikh",
+    "location": "Sidi Salem",
+    "latlng": {
+      "lat": 30.711977837499997,
+      "lng": 30.690385862499998
+    }
+  },
+  {
+    "gov": "Matruh",
+    "location": "El Hamam",
+    "latlng": {
+      "lat": 30.599205949999998,
+      "lng": 30.552998225
+    }
+  },
+  {
+    "gov": "Matruh",
+    "location": "El Dabaa",
+    "latlng": {
+      "lat": 30.925376524999997,
+      "lng": 30.274665525
+    }
+  },
+  {
+    "gov": "Matruh",
+    "location": "Mersa Matruh",
+    "latlng": {
+      "lat": 30.61309088333334,
+      "lng": 30.7445788125
+    }
+  },
+  {
+    "gov": "Matruh",
+    "location": "Sidi Barany",
+    "latlng": {
+      "lat": 31.2588613,
+      "lng": 29.981034
+    }
+  },
+  {
+    "gov": "Matruh",
+    "location": "Sallum",
+    "latlng": {
+      "lat": 31.2440851,
+      "lng": 29.9668784
+    }
+  }
+]

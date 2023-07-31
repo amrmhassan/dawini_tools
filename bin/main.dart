@@ -11,7 +11,7 @@ var bigFile =
 
 dynamic pharmacyByPhone(String phone) {
   return smallFile.cast().firstWhere(
-        (element) => element['tel'] == phone,
+        (element) => element['name'] == phone,
         orElse: () => null,
       );
 }
@@ -24,6 +24,7 @@ String? currentLocation;
 Map<String, dynamic>? currentPharmacy;
 
 void main(List<String> args) async {
+  List<String> names = [];
   for (var govEntry in bigFile) {
     currentGov = govEntry['gov'];
     var locations = govEntry['locations'] as List;
@@ -36,7 +37,7 @@ void main(List<String> args) async {
         String address = pharmEntry['address'];
         String randomId = Uuid().v4();
         String id = pharmEntry['id'] ?? randomId;
-        var latlng = pharmacyByPhone(tel)?['pharmacyLocation'];
+        var latlng = pharmacyByPhone(name)?['pharmacyLocation'];
         var pharmacyObj = {
           'name': name,
           'tel': tel,
@@ -65,7 +66,7 @@ void main(List<String> args) async {
     govs.add(govObj);
   }
   var res = json.encode(govs);
-  File resFile = File('./data/combined_pharmacies.json');
+  File resFile = File('./pharmacies/combined_pharmacies.json');
   resFile.writeAsStringSync(res);
   print('all done');
 }
