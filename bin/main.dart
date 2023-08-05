@@ -1,72 +1,23 @@
-import 'dart:convert';
 import 'dart:io';
-import 'package:uuid/uuid.dart';
+import 'package:html/parser.dart' as parser;
 
-var smallFile =
-    json.decode(File('./data/pharmacies.json').readAsStringSync()) as List;
+// this is the script to scape the doctors data from this website https://www.vezeeta.com/ar/%D8%AF%D9%83%D8%AA%D9%88%D8%B1/%D9%83%D9%84-%D8%A7%D9%84%D8%AA%D8%AE%D8%B5%D8%B5%D8%A7%D8%AA/%D9%85%D8%B5%D8%B1
+String url =
+    'https://www.vezeeta.com/ar/%D8%AF%D9%83%D8%AA%D9%88%D8%B1/%D9%83%D9%84-%D8%A7%D9%84%D8%AA%D8%AE%D8%B5%D8%B5%D8%A7%D8%AA/%D9%85%D8%B5%D8%B1';
+File mainPageFile = File('./data/doctors/main_page.html');
+String get fileContent => mainPageFile.readAsStringSync();
 
-var bigFile =
-    json.decode(File('./data/list_pharmacies_minified.json').readAsStringSync())
-        as List;
-
-dynamic pharmacyByPhone(String phone) {
-  return smallFile.cast().firstWhere(
-        (element) => element['name'] == phone,
-        orElse: () => null,
-      );
-}
-
-List govs = [];
-List currentLocations = [];
-List currentPharmacies = [];
-String? currentGov;
-String? currentLocation;
-Map<String, dynamic>? currentPharmacy;
-
+//! use this as follows
+//! 1- get all doctors data links and store them with a random access file each one in a line to use them later and log each doctor id and index
+//! 2- use stored list with all doctor links to scrape each doctor data
+//! 3- for the governorate of the doctor use a custom list of governorate and each area in it (cairo =>[almaady, ramsis, etc...])
 void main(List<String> args) async {
-  List<String> names = [];
-  for (var govEntry in bigFile) {
-    currentGov = govEntry['gov'];
-    var locations = govEntry['locations'] as List;
-    for (var locationEntry in locations) {
-      currentLocation = locationEntry['location'];
-      var pharms = locationEntry['pharms'] as List;
-      for (var pharmEntry in pharms) {
-        String name = pharmEntry['name'];
-        String tel = pharmEntry['tel'];
-        String address = pharmEntry['address'];
-        String randomId = Uuid().v4();
-        String id = pharmEntry['id'] ?? randomId;
-        var latlng = pharmacyByPhone(name)?['pharmacyLocation'];
-        var pharmacyObj = {
-          'name': name,
-          'tel': tel,
-          'address': address,
-          'pharmacyLocation': latlng,
-          'id': id,
-        };
-        currentPharmacies.add(pharmacyObj);
-        //? end of pharmacies loop
-      }
-      // create the location obj
-      var locationObj = {
-        "location": currentLocation,
-        'pharms': [...currentPharmacies]
-      };
-      currentLocations.add(locationObj);
-      currentPharmacies.clear();
-      //? end of locations loop
-    }
-    var govObj = {
-      'gov': currentGov,
-      'locations': [...currentLocations],
-    };
-    currentLocations.clear();
-    //? end of govs loop
-    govs.add(govObj);
-  }
-  var res = json.encode(govs);
-  File resFile = File('./pharmacies/combined_pharmacies.json');
-  resFile.writeAsStringSync(res);
-  print('all done');
+  // var res = await http.get(Uri.parse(url));
+  // String body = res.body;
+  // mainPageFile.writeAsStringSync(body);
+  // BeautifulSoup bs = BeautifulSoup(mainPageFile.readAsStringSync());
+  // print(bs.text);
+  var document = parser.parse(fileContent);
+  var element = document.querySelector('[data-testid="doctor-card-9"]');
+  print(element?.text);
 }
