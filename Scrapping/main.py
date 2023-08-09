@@ -1,5 +1,4 @@
 from constants.urls import getPageUrl
-from init.init import get_driver
 from parsers.files import saveFile
 import requests
 
