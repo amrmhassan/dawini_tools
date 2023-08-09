@@ -1,0 +1,3 @@
+class ScrappingRunner {
+  void runner() {}
+}
