@@ -7,15 +7,15 @@ class VisitorsExtractors {
   const VisitorsExtractors(this._parent);
 
   int? get visitors {
-    String? method1Res = method1();
-    if (method1Res != null) return _converter(method1Res);
-    String? method2Res = method2();
-    if (method2Res != null) return _converter(method2Res);
+    int? method1Res = _converter(_method1());
+    if (method1Res != null) return method1Res;
+    int? method2Res = _converter(_method2());
+    if (method2Res != null) return method2Res;
 
     return null;
   }
 
-  String? method1() {
+  String? _method1() {
     String? content = _parent
         .querySelector(
             "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > div.DoctorCardstyle__DoctorRatingWrapper-sc-uptab2-9.bxsqEC > div.DoctorCardstyle__RatingContainer-sc-uptab2-10.eZRYZm")
@@ -28,7 +28,7 @@ class VisitorsExtractors {
     return content;
   }
 
-  String? method2() {
+  String? _method2() {
     String? content = _parent
         .querySelector(
             "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > div.DoctorCardstyle__DoctorRatingWrapper-sc-uptab2-9.bxsqEC")

@@ -10,6 +10,8 @@ class DoctorModel {
   final String? address;
   final double? price;
   final String? waiting;
+  final double? rating;
+  final int page;
 
   const DoctorModel({
     required this.name,
@@ -23,6 +25,8 @@ class DoctorModel {
     required this.waiting,
     required this.id,
     required this.link,
+    required this.rating,
+    required this.page,
   });
 
   Map<String, dynamic> toJson() {
@@ -38,6 +42,8 @@ class DoctorModel {
       'address': address,
       'price': price,
       'waiting': waiting,
+      'rating': rating,
+      'page': page,
     };
   }
 }

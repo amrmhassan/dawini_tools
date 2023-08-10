@@ -1,13 +1,15 @@
 import 'package:html/dom.dart';
 
 import '../constants/urls.dart';
+import '../extractors/price_extractors.dart';
 import '../extractors/visitors_extractors.dart';
 import '../extractors/waiting_extractors.dart';
 import '../models/doctor_model.dart';
 
 class DoctorInfo {
   final Element _document;
-  const DoctorInfo(this._document);
+  final int page;
+  const DoctorInfo(this._document, this.page);
 
   DoctorModel get doctorModel {
     return DoctorModel(
@@ -22,6 +24,8 @@ class DoctorInfo {
       waiting: _waiting,
       link: _link,
       id: _id,
+      rating: rating,
+      page: page,
     );
   }
 
@@ -50,10 +54,12 @@ class DoctorInfo {
   }
 
   String? get _title {
-    return _document
+    String? rawTitle = _document
         .querySelector(
             "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > p")
         ?.text;
+    rawTitle = clean(rawTitle);
+    return rawTitle;
   }
 
   int? get _visitors {
@@ -78,12 +84,9 @@ class DoctorInfo {
   }
 
   double? get _price {
-    var container = _document.querySelector(
-        "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > span.DoctorCardstyle__HideOnMobile-sc-uptab2-0.wnblj");
-    var line = container?.querySelector('span:nth-child(17)');
-    String? priceText = line?.text;
-    double? priceInt = arabicToNumber(priceText);
-    return priceInt;
+    PriceExtractor extractor = PriceExtractor(_document);
+    double? price = extractor.price;
+    return price;
   }
 
   String? get _waiting {

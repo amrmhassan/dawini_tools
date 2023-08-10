@@ -1,7 +1,5 @@
 import 'package:html/dom.dart';
 
-import '../parsers/info_extractor.dart';
-
 class WaitingExtractors {
   final Element _parent;
   const WaitingExtractors(this._parent);
@@ -11,6 +9,8 @@ class WaitingExtractors {
     if (method1Res != null) return method1Res;
     String? method2Res = method2();
     if (method2Res != null) return method2Res;
+    String? method3Res = method3();
+    if (method3Res != null) return method3Res;
 
     return null;
   }
@@ -20,20 +20,22 @@ class WaitingExtractors {
         .querySelector(
             "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > span.DoctorCardstyle__HideOnMobile-sc-uptab2-0.wnblj > span.DoctorCardstyle__Text-sc-uptab2-4.lhhnfH")
         ?.text;
-    if (content == null) return null;
     return content;
   }
 
   String? method2() {
     String? content = _parent
         .querySelector(
-            "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > div.DoctorCardstyle__DoctorRatingWrapper-sc-uptab2-9.bxsqEC")
+            "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > span.DoctorCardstyle__HideOnMobile-sc-uptab2-0.wnblj > span.DoctorCardstyle__Text-sc-uptab2-4.gbzkPK")
         ?.text;
-    if (content == null) return null;
-    content = clean(content);
-    content = content!.replaceAll('التقييم العام من', '');
-    content = content.replaceAll('زاروا الدكتور', '');
-    content = content.trim();
+    return content;
+  }
+
+  String? method3() {
+    String? content = _parent
+        .querySelector(
+            "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > span.DoctorCardstyle__HideOnMobile-sc-uptab2-0.wnblj > span.DoctorCardstyle__Text-sc-uptab2-4.kWJmxw")
+        ?.text;
     return content;
   }
 }

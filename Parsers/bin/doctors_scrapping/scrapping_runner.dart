@@ -21,15 +21,14 @@ class ScrappingRunner {
     saver.saveDoctors();
   }
 
-  void _pageLooper(Document page) {
+  void _pageLooper(Document page, int pageNumber) {
     int fileDoctors = 0;
 
     for (var i = 0; i < 10; i++) {
       Element? element = page.querySelector('[data-testid="doctor-card-$i"]');
       if (element == null) return;
 
-      DoctorInfo doctorInfo = DoctorInfo(element);
-      print(doctorInfo.rating);
+      DoctorInfo doctorInfo = DoctorInfo(element, pageNumber);
       _doctors.add(doctorInfo.doctorModel);
       fileDoctors++;
     }
@@ -46,7 +45,7 @@ class ScrappingRunner {
       int number = int.parse(name.split('.').first);
       String content = fileReader.read(number, dataPath);
       Document document = documentParser.get(content);
-      _pageLooper(document);
+      _pageLooper(document, number);
     }
   }
 }
