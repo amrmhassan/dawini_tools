@@ -1,38 +1,67 @@
 import 'package:html/dom.dart';
 
+import '../constants/urls.dart';
+import '../extractors/visitors_extractors.dart';
+import '../extractors/waiting_extractors.dart';
+import '../models/doctor_model.dart';
+
 class DoctorInfo {
   final Element _document;
   const DoctorInfo(this._document);
 
-  String? get name {
+  DoctorModel get doctorModel {
+    return DoctorModel(
+      name: _name,
+      title: _title,
+      visitors: _visitors,
+      mainSpecialization: _specialization,
+      subSpecializations: null,
+      character: null,
+      address: _place,
+      price: _price,
+      waiting: _waiting,
+      link: _link,
+      id: _id,
+    );
+  }
+
+  String? get _id {
+    var aDoc = _document.attributes.entries
+        .firstWhere((element) => element.key == 'id');
+    return aDoc.value;
+  }
+
+  String? get _link {
+    var aDoc = _document.querySelector(
+        "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > a");
+    var attributes =
+        aDoc?.attributes.entries.firstWhere((element) => element.key == 'href');
+    String? value = attributes?.value;
+    if (value == null) return null;
+    String finalLink = Urls.vezeeta + value;
+    return finalLink;
+  }
+
+  String? get _name {
     return _document
         .querySelector(
             "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > a > h4")
         ?.text;
   }
 
-  String? get title {
+  String? get _title {
     return _document
         .querySelector(
             "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > p")
         ?.text;
   }
 
-  int? get visitors {
-    String? content = _document
-        .querySelector(
-            "#doctor-card__29104 > span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > div.DoctorCardstyle__DoctorRatingWrapper-sc-uptab2-9.bxsqEC > div.DoctorCardstyle__RatingContainer-sc-uptab2-10.eZRYZm")
-        ?.text;
-    if (content == null) return null;
-    content = clean(content);
-    content = content!.replaceAll('التقييم العام من', '');
-    content = content.replaceAll('زاروا الدكتور', '');
-    content = content.trim();
-    int? visitors = arabicToNumber(content);
-    return visitors;
+  int? get _visitors {
+    VisitorsExtractors extractors = VisitorsExtractors(_document);
+    return extractors.visitors;
   }
 
-  String? get specialization {
+  String? get _specialization {
     String? content = _document
         .querySelector(
             "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > span.DoctorCardstyle__HideOnMobile-sc-uptab2-0.wnblj > span.DoctorCardSubComponentsstyle__SpecialtyRowLimitDetailsWrapper-sc-1vq3h7c-21.jzapWu > span")
@@ -41,27 +70,38 @@ class DoctorInfo {
     return content;
   }
 
-  String? get place {
+  String? get _place {
     return _document
         .querySelector(
             "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > span.DoctorCardstyle__HideOnMobile-sc-uptab2-0.wnblj > span.DoctorCardstyle__Text-sc-uptab2-4.blwPZf")
         ?.text;
   }
 
-  int? get price {
+  double? get _price {
     var container = _document.querySelector(
         "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > span.DoctorCardstyle__HideOnMobile-sc-uptab2-0.wnblj");
     var line = container?.querySelector('span:nth-child(17)');
     String? priceText = line?.text;
-    int? priceInt = arabicToNumber(priceText);
+    double? priceInt = arabicToNumber(priceText);
     return priceInt;
   }
 
-  String? get waiting {
-    return _document
-        .querySelector(
-            "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > span.DoctorCardstyle__HideOnMobile-sc-uptab2-0.wnblj > span.DoctorCardstyle__Text-sc-uptab2-4.lhhnfH")
-        ?.text;
+  String? get _waiting {
+    WaitingExtractors extractors = WaitingExtractors(_document);
+    return extractors.waiting;
+  }
+
+//! this rating extractor give false results
+  double? get rating {
+    var doc = _document.querySelector(
+        "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > div.DoctorCardstyle__DoctorRatingWrapper-sc-uptab2-9.bxsqEC > div.DoctorCardstyle__RatingContainer-sc-uptab2-10.eZRYZm > span.StarRatingstyle__StarRatingContainer-sc-16vjtpf-0.fhuNbU");
+    var ratingValue = doc?.attributes.entries
+        .firstWhere((element) => element.key == 'data-testid')
+        .value;
+    ratingValue = ratingValue?.replaceAll('star-rating__rating-value--', '');
+    if (ratingValue == null) return null;
+    double? ratingDouble = double.tryParse(ratingValue);
+    return ratingDouble;
   }
 }
 
@@ -72,7 +112,7 @@ String? clean(String? content) {
 }
 
 String _arabicNumbers = '٠١٢٣٤٥٦٧٨٩';
-int? arabicToNumber(String? arabic) {
+double? arabicToNumber(String? arabic) {
   if (arabic == null) return null;
   arabic = arabic.trim();
 
@@ -87,6 +127,6 @@ int? arabicToNumber(String? arabic) {
     // here get the number index and add it to the english results
     englishRes += index.toString();
   }
-  int? finalNumber = int.tryParse(englishRes);
+  double? finalNumber = double.tryParse(englishRes);
   return finalNumber;
 }
