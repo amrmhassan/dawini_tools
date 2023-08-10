@@ -28,6 +28,7 @@ class WaitingExtractors {
         .querySelector(
             "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > span.DoctorCardstyle__HideOnMobile-sc-uptab2-0.wnblj > span.DoctorCardstyle__Text-sc-uptab2-4.gbzkPK")
         ?.text;
+    content = content?.replaceAll('مدة الانتظار : ', '');
     return content;
   }
 
@@ -36,6 +37,7 @@ class WaitingExtractors {
         .querySelector(
             "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > span.DoctorCardstyle__HideOnMobile-sc-uptab2-0.wnblj > span.DoctorCardstyle__Text-sc-uptab2-4.kWJmxw")
         ?.text;
+    content = content?.replaceAll('مدة الانتظار : ', '');
     return content;
   }
 }

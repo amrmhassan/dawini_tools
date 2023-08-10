@@ -2,6 +2,7 @@ import 'package:html/dom.dart';
 
 import '../constants/urls.dart';
 import '../extractors/price_extractors.dart';
+import '../extractors/rating_extractor.dart';
 import '../extractors/visitors_extractors.dart';
 import '../extractors/waiting_extractors.dart';
 import '../models/doctor_model.dart';
@@ -24,7 +25,7 @@ class DoctorInfo {
       waiting: _waiting,
       link: _link,
       id: _id,
-      rating: rating,
+      rating: _rating,
       page: page,
     );
   }
@@ -95,16 +96,9 @@ class DoctorInfo {
   }
 
 //! this rating extractor give false results
-  double? get rating {
-    var doc = _document.querySelector(
-        "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > div.DoctorCardstyle__DoctorRatingWrapper-sc-uptab2-9.bxsqEC > div.DoctorCardstyle__RatingContainer-sc-uptab2-10.eZRYZm > span.StarRatingstyle__StarRatingContainer-sc-16vjtpf-0.fhuNbU");
-    var ratingValue = doc?.attributes.entries
-        .firstWhere((element) => element.key == 'data-testid')
-        .value;
-    ratingValue = ratingValue?.replaceAll('star-rating__rating-value--', '');
-    if (ratingValue == null) return null;
-    double? ratingDouble = double.tryParse(ratingValue);
-    return ratingDouble;
+  double? get _rating {
+    RatingExtractor extractor = RatingExtractor(_document);
+    return extractor.rating;
   }
 }
 
