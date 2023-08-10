@@ -16,10 +16,10 @@ class RatingExtractor {
   }
 
   String? _method1() {
-    var element = _parent.children[0].children[0].children[1].children[5]
-        .children[0].children[0];
+    // var element = _parent.children[0].children[0].children[1].children[5]
+    //     .children[0].children[0];
 
-    print(element.text);
+    // print(element.text);
     var doc = _parent.querySelector(
         "span > div.CommonStylesstyle__ColDirection-sc-1vkcu2o-1.dfaYOD > div.Gridstyle__ColStyle-sc-1lgtuty-0.cIJIvF > div.DoctorCardstyle__DoctorRatingWrapper-sc-uptab2-9.bxsqEC > div.DoctorCardstyle__RatingContainer-sc-uptab2-10.eZRYZm > span");
     var ratingValue = doc?.attributes.entries
