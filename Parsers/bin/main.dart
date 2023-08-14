@@ -9,5 +9,5 @@ void main(List<String> args) async {
   var document = documentParser.get(file.readAsStringSync());
   Extractor extractor = Extractor(document);
 
-  print(extractor.getDetailedSpecialization);
+  print(extractor.singleCommentMap);
 }
