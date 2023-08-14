@@ -2,7 +2,7 @@ import os
 import requests
 import json
 
-path = 'doctors.json path'
+path = '/home/ubuntu/downloads/dawini_tools/final_res.json'
 output_folder = 'output_doctors'
 
 # Create the output folder if it doesn't exist
