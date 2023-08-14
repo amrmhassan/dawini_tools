@@ -1,5 +1,7 @@
 import 'package:html/dom.dart';
 
+import 'extractors/specialization_extractor.dart';
+
 class Extractor {
   final Document document;
 
@@ -12,14 +14,7 @@ class Extractor {
   }
 
   String? get getDetailedSpecialization {
-    var detailsSpecialization = document.querySelector(
-        "#__next > div > div.MainContainerstyle__WrapperContainer-sc-jzlwim-0.jEPiCa > div.MainContainerstyle__Container-sc-jzlwim-1.knppsE > div > div > div > div.Gridstyle__ColStyle-sc-1lgtuty-0.eRQQJV > div.Cardstyle__CardContainer-sc-1rtf8lp-0.HksLi > div > div.Gridstyle__ColStyle-sc-1lgtuty-0.iaZcPp");
-    var parsed = detailsSpecialization!.children.skip(3).toList();
-    parsed.removeLast();
-    parsed.removeLast();
-    parsed.removeLast();
-    var string = parsed.map((e) => e.text).join('');
-    string = string.replaceAll(':', '');
-    return string;
+    SpecializationExtractor extractor = SpecializationExtractor(document);
+    return extractor.extract();
   }
 }
