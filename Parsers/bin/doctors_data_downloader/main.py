@@ -2,7 +2,7 @@ import os
 import requests
 import json
 
-path = '/home/ubuntu/downloads/dawini_tools/final_res.json'
+path = 'D:/Study And Work/Work/projects/flutter/Dart Mastery/dawini_tools/Parsers/data/doctors/doctors.json'
 output_folder = 'output_doctors'
 
 # Create the output folder if it doesn't exist
