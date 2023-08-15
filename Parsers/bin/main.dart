@@ -7,11 +7,18 @@ import 'doctor_data_extractor/folder_parser.dart';
 // and save files by their ids also
 
 void main(List<String> args) async {
-  FolderParser folderParser = FolderParser(
-      'D:/Study And Work/Work/projects/flutter/Dart Mastery/dawini_tools/output_doctors');
+  String folderPath = Platform.isWindows
+      ? 'D:/Study And Work/Work/projects/flutter/Dart Mastery/dawini_tools/output_doctors'
+      : '/home/ubuntu/downloads/dawini_tools/output_doctors';
+
+  String doctorsFilePath = Platform.isWindows
+      ? 'D:/Study And Work/Work/projects/flutter/Dart Mastery/dawini_tools/Parsers/data/doctors/doctors.json'
+      : '/home/ubuntu/downloads/dawini_tools/final_res.json';
+
+  FolderParser folderParser = FolderParser(folderPath);
+
   folderParser.parse();
-  File file = File(
-      'D:/Study And Work/Work/projects/flutter/Dart Mastery/dawini_tools/Parsers/data/doctors/doctors.json');
+  File file = File(doctorsFilePath);
   var doctors = jsonDecode(file.readAsStringSync()) as List;
   print(doctors.length);
 }
