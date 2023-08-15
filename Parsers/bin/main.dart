@@ -32,6 +32,7 @@ void main(List<String> args) async {
       print('doctor $id doesn\'t exist');
       continue;
     }
+
     String content = doctorFile.readAsStringSync();
     var document = documentParser.get(content);
     Extractor extractor = Extractor(document);
@@ -46,6 +47,7 @@ void main(List<String> args) async {
     fullDoctor['singleCommentMap'] = singleCommentMap;
     fullDoctor['imageLink'] = imageLink;
     doctorsDataV2.add(fullDoctor);
+    print('$id Done');
   }
   File file = File('doctors_data_v2.json');
   file.writeAsStringSync(jsonEncode(doctorsDataV2));
