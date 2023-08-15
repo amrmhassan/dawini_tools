@@ -1,8 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:uuid/uuid.dart';
-
 // i will recognize doctors by their ids
 // and save files by their ids also
 
@@ -19,22 +17,22 @@ void main(List<String> args) async {
 
   // folderParser.parse();
   File file = File(doctorsFilePath);
-  var doctors = jsonDecode(file.readAsStringSync()) as List;
-  List<Map<String, dynamic>> doctorsMap = [];
+  var doctorsRaw = jsonDecode(file.readAsStringSync()) as List;
+  List<Map<String, dynamic>> doctors = doctorsRaw.cast();
+
+  List<String> doctorsIds = [];
+  List<String> duplicate = [];
 
   for (var doctor in doctors) {
-    String id = doctor['id'];
-    bool exists = doctorsMap.any((element) => element['id'] == id);
+    String calcedId = doctor.values.fold(
+        '', (previousValue, element) => previousValue + element.toString());
+    bool exists = doctorsIds.contains(calcedId);
     if (exists) {
-      var newDoctor = doctor;
-      newDoctor['id'] = Uuid().v4();
-      doctorsMap.add(newDoctor);
+      duplicate.add(calcedId);
     } else {
-      doctorsMap.add(doctor);
+      doctorsIds.add(calcedId);
     }
   }
-  File unDuplicateFile = File('unDuplicatedIdsDoctors.json');
-  unDuplicateFile.writeAsStringSync(jsonEncode(doctorsMap));
-
-  print(doctorsMap.length);
+  print(doctorsIds.length);
+  print(duplicate.length);
 }
