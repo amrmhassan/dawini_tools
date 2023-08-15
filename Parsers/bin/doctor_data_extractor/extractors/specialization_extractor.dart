@@ -7,7 +7,8 @@ class SpecializationExtractor {
   String? extract() {
     var detailsSpecialization = document.querySelector(
         "#__next > div > div.MainContainerstyle__WrapperContainer-sc-jzlwim-0.jEPiCa > div.MainContainerstyle__Container-sc-jzlwim-1.knppsE > div > div > div > div.Gridstyle__ColStyle-sc-1lgtuty-0.eRQQJV > div.Cardstyle__CardContainer-sc-1rtf8lp-0.HksLi > div > div.Gridstyle__ColStyle-sc-1lgtuty-0.iaZcPp");
-    var parsed = detailsSpecialization!.children.skip(3).toList();
+    var parsed = detailsSpecialization?.children.skip(3).toList();
+    if (parsed == null) return null;
 
     bool hazard = _containsHazard(_getContent(parsed));
     if (hazard) {
