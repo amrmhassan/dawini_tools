@@ -3,8 +3,8 @@ import requests
 import json
 import sys
 
-windows_path = 'D:/Study And Work/Work/projects/flutter/Dart Mastery/dawini_tools/Parsers/data/doctors/doctors.json'
-linux_path = '/home/ubuntu/downloads/dawini_tools/final_res.json'
+windows_path = 'D:/Study And Work/Work/projects/flutter/Dart Mastery/dawini_tools/Parsers/unDuplicatedIdsDoctors.json'
+linux_path = '/home/ubuntu/downloads/dawini_tools/Parsers/unDuplicatedIdsDoctors.json'
 
 if sys.platform.startswith('win'):
     path = windows_path
