@@ -1,8 +1,16 @@
 import os
 import requests
 import json
+import sys
 
-path = '/home/ubuntu/downloads/dawini_tools/final_res.json'
+windows_path = 'D:/Study And Work/Work/projects/flutter/Dart Mastery/dawini_tools/Parsers/data/doctors/doctors.json'
+linux_path = '/home/ubuntu/downloads/dawini_tools/final_res.json'
+
+if sys.platform.startswith('win'):
+    path = windows_path
+else:
+    path = linux_path
+
 output_folder = 'output_doctors'
 
 # Create the output folder if it doesn't exist
@@ -16,12 +24,17 @@ with open(path, 'r', encoding='utf-8') as json_file:
         print(link)
         # Download the HTML page
         try:
+            filename = os.path.join(output_folder, f'{doctor_id}.html')
+            if os.path.exists(filename):
+                print(f'file {filename} exists')
+                continue
             response = requests.get(link)
             response.raise_for_status()  # Raise an exception for bad response status
             html_content = response.text
 
             # Save the HTML content to a file
-            filename = os.path.join(output_folder, f'{doctor_id}.html')
+
+            # os.
             with open(filename, 'w', encoding='utf-8') as html_file:
                 html_file.write(html_content)
 
