@@ -29,7 +29,7 @@ void main(List<String> args) async {
     String additionalDataFilePath = '$folderPath$id.html';
     File doctorFile = File(additionalDataFilePath);
     if (!doctorFile.existsSync()) {
-      // print('doctor $id doesn\'t exist');
+      print('doctor $id doesn\'t exist');
       continue;
     }
     String content = doctorFile.readAsStringSync();
